@@ -1492,3 +1492,6 @@ ul li:hover ul.dropdown{
   border-bottom: 1px solid grey;
   margin: 0px 13px;
 }
+.cpp-basic p:hover{
+  color: rgb(17, 17, 17);
+}

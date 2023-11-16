@@ -6,40 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/files/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
 
-  <!--
+    <!--
     - primary meta tag
   -->
-  <title>CodeAlpha99</title>
+    <title>CodeAlpha</title>
 
-  <!--
+    <!--- custom js link -->
+    <script src="/files/script.js"></script>
+
+    <!--
     - favicon
   -->
-  <link rel="shortcut icon" href="/img/favicon.svg" type="image/svg+xml">
+    <link rel="shortcut icon" href="/img/favicon.svg" type="image/svg+xml">
 
-  <!--
+    <!--
     - custom css link
   -->
-  <link rel="stylesheet" href="/files/style.css">
+    <link rel="stylesheet" href="/files/style.css">
 
-  <!--
+    <!--
     - google font link
   -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&family=Poppins:wght@400;500&display=swap"
-    rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&family=Poppins:wght@400;500&display=swap"
+        rel="stylesheet">
 
-  <!--
+    <!--
     - preload images
   -->
-  <link rel="preload" as="image" href="/img/hero-bg.svg">
-  <link rel="preload" as="image" href="/img/hero-banner-1.jpg">
-  <link rel="preload" as="image" href="/img/hero-banner-2.jpg">
-  <link rel="preload" as="image" href="">
-  <link rel="preload" as="image" href="/img/hero-shape-2.png">
+    <link rel="preload" as="image" href="/img/hero-bg.svg">
+    <link rel="preload" as="image" href="/img/hero-banner-1.jpg">
+    <link rel="preload" as="image" href="/img/hero-banner-2.jpg">
+    <link rel="preload" as="image" href="">
+    <link rel="preload" as="image" href="/img/hero-shape-2.png">
 
 </head>
 
@@ -178,50 +182,54 @@
         <div class="cpp-tutorial">
             <div class="cpp-left-column">
                 <div class="cpp-basic">
-                <h3>C++ Tutorials</h3>
-                <p>C++ Tutorials</p>
-                <p>C++ History</p>
-                <p>C++ features</p>
-                <p>C++ Features</p>
-                <p>C++ Installation</p>
-                <p>C++ Program</p>
-                <p>C++ cout, cin, endl</p>
-                <p>C++ Variable</p>
-                <p>C++ Data types</p>
-                <p>C++ Keywords</p>
-                <p>C++ Operators</p>
-                <p>C++ Identifiers</p>
-                <p>C++ Expression</p>
-            </div>
+                    <h3>C++ Tutorials</h3>
+                    <p onclick="loadpage('introduction')">C++ Tutorials</p>
+                    <p onclick="loadpage('cpp_history')">C++ History</p>
+                    <p>C++ features</p>
+                    <p>C++ Features</p>
+                    <p>C++ Installation</p>
+                    <p>C++ Program</p>
+                    <p>C++ cout, cin, endl</p>
+                    <p>C++ Variable</p>
+                    <p>C++ Data types</p>
+                    <p>C++ Keywords</p>
+                    <p>C++ Operators</p>
+                    <p>C++ Identifiers</p>
+                    <p>C++ Expression</p>
+                </div>
                 <div class="control-statement">
                     <h3>C++ Control Statement</h3>
                     <P>C++ if-else</P>
-                   <P> C++ switch</P>
-                   <P> C++ For Loop</P>
-                   <P> C++ While Loop</P>
-                   <P> C++ Do-While Loop</P>
-                   <P> C++ Break Statement</P>
-                   <P> C++ Continue Statement</P>
-                   <P> C++ Goto Statement</P>
-                   <P> C++ Comments</P>
-                   <P> C++ Functions</P>
+                    <P> C++ switch</P>
+                    <P> C++ For Loop</P>
+                    <P> C++ While Loop</P>
+                    <P> C++ Do-While Loop</P>
+                    <P> C++ Break Statement</P>
+                    <P> C++ Continue Statement</P>
+                    <P> C++ Goto Statement</P>
+                    <P> C++ Comments</P>
+                    <P> C++ Functions</P>
                 </div>
             </div>
-            <div class="cpp-right-column">
+            <div class="cpp-right-column" id="right_column">
                 <h2>C++ Tutorials</h2>
                 <div class="column-box">
                     <div>
-                <p>C++ tutorial provides basic and advanced concepts of C++. Our C++ tutorial is designed for beginners
-                    and professionals.</p>
+                        <p>C++ tutorial provides basic and advanced concepts of C++. Our C++ tutorial is designed for
+                            beginners
+                            and professionals.</p>
 
-                <p>C++ is an object-oriented programming language. It is an extension to C programming.</p>
+                        <p>C++ is an object-oriented programming language. It is an extension to C programming.</p>
 
 
 
-                <p>Our C++ tutorial includes all topics of C++ such as first example, control statements, objects and
-                    classes, inheritance, constructor, destructor, this, static, polymorphism, abstraction, abstract
-                    class, interface, namespace, encapsulation, arrays, strings, exception handling, File IO, etc.</p>
-                </div>
+                        <p>Our C++ tutorial includes all topics of C++ such as first example, control statements,
+                            objects and
+                            classes, inheritance, constructor, destructor, this, static, polymorphism, abstraction,
+                            abstract
+                            class, interface, namespace, encapsulation, arrays, strings, exception handling, File IO,
+                            etc.</p>
+                    </div>
                     <div>
                         <img src="../img/cpp.jpg" width="300px">
                     </div>
@@ -237,43 +245,39 @@
                 <p>C++ supports the object-oriented programming, the four major pillar of object-oriented programming
                     (OOPs) used in C++ are:</p>
 
-                    <p>1.Inheritance</p>
-                    <p>2.Polymorphism</p>
-                    <p>3.Encapsulation</p>
-                    <p>4.Abstraction</p>
+                <p>1.Inheritance</p>
+                <p>2.Polymorphism</p>
+                <p>3.Encapsulation</p>
+                <p>4.Abstraction</p>
 
 
                 <br>
                 <h2>C++ Standard Libraries</h2>
                 <p>Standard C++ programming is divided into three important parts</p>
 
-                    <p>1.Coffee</p>
-                    <p>2.Tea</p>
-                    <p>3.Milk</p>
+                <p>1.Coffee</p>
+                <p>2.Tea</p>
+                <p>3.Milk</p>
 
 
                 <br>
                 <h2>Usage of C++</h2>
                 <!-- <ul style="list-style-type:disc"> -->
-                    <p>1.Window application</p>
-                    <p>2.Client-Server application</p>
-                    <p>3.Device drivers</p>
-                    <p>4.Embedded firmware etc</p>
+                <p>1.Window application</p>
+                <p>2.Client-Server application</p>
+                <p>3.Device drivers</p>
+                <p>4.Embedded firmware etc</p>
                 <!-- </ul> -->
 
             </div>
         </div>
 
-        <!--
-    - custom js link
-  -->
-    <script src="/files/script.js"></script>
 
-    <!--
+        <!--
     - ionicon link
   -->
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     </body>
 
 </html>
