@@ -1393,9 +1393,9 @@ body {
   color: black;
 }
 .dropdown{
-  padding-top: 10px;
-
+  padding: 10px;
 }
+
 ul li ul.dropdown li{
   display:block;
   text-align: center;

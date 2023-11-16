@@ -64,5 +64,7 @@ addEventOnElem(window, "scroll", activeElem);
 
 // functions load the page that user call from side column
   function loadpage(pageid){
-    $('#right_column').load(pageid+'.html');
+
+    // $('.cpp-right-column').html('');
+    $('#right-box').load(pageid+'.html');
   }
