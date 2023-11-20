@@ -1,10 +1,8 @@
 'use strict';
 
+$('#nav').load('navbar.html');
 
-
-/**
- * add event on element
- */
+/** * add event on element  */
 
 const addEventOnElem = function (elem, type, callback) {
   if (elem.length > 1) {
@@ -18,9 +16,7 @@ const addEventOnElem = function (elem, type, callback) {
 
 
 
-/**
- * navbar toggle
- */
+/* navbar toggle */
 
 const navbar = document.querySelector("[data-navbar]");
 const navTogglers = document.querySelectorAll("[data-nav-toggler]");
