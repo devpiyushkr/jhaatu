@@ -1,0 +1,19 @@
+#upper-box{
+    background-color: hsl(170, 75%, 41%);
+    height: 500px;
+    color: aliceblue;
+    margin-top: 90px;
+    align-content: center;
+}
+
+#why-ebook {
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 30px;
+}
+
+#cards{
+    /* padding: 30px 10px; */
+    background-color: aliceblue;
+    width: 100px;
+}
