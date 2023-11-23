@@ -1457,9 +1457,6 @@ ul li:hover ul.dropdown{
 .cpp-left-column p:hover{
   cursor: pointer;
 }
-/* .cpp-right-column ul{
- list-style: square;
-} */
 .cpp-right-column{
   width:800px;
   background-color: #fff;
@@ -1494,4 +1491,44 @@ ul li:hover ul.dropdown{
 }
 .cpp-basic p:hover{
   color: rgb(17, 17, 17);
+}
+
+/* -------ebook--------- */
+.ebook-container{
+  background-color: rgb(16, 17, 17);
+  width:100%;
+  height: 500px;
+  top:100px;
+  position: relative;
+}
+.ebook-container h1{
+ padding: 30px 0px 40px 0px;
+ font-size: 40px;
+  color: #fff;
+  text-align: center;
+}
+.ebook-col{
+  display: flex;
+  justify-content: space-around;
+  /* border:1px solid white; */
+  margin: 30px 60px;
+
+
+}
+.ebook-box{
+  display: flex;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 30px 45px;
+  margin: 5px;
+}
+.ebook-box p{
+  color: rgb(17, 17, 17);
+}
+#svg-icon{
+  color: black;
+  margin-right: 10px;
+  height: 50px;
+  width:40px;
+  /* background-color: green; */
 }
